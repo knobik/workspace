@@ -1,7 +1,4 @@
-# Laradock's Workspace Base Image
+[Workspace Docker Hub Repository](https://hub.docker.com/r/knobik/workspace/)
 
-[Contribution Guide](http://laradock.io/contributing/#edit-base-image).
-
-[Workspace Docker Hub Repository](https://hub.docker.com/r/laradock/workspace/)
-
+Courtesy of Laradock
 [Laradock Github Repository](https://github.com/Laradock/laradock).

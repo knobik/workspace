@@ -17,9 +17,10 @@ ENV LC_CTYPE=en_US.UTF-8
 ENV LANG=en_US.UTF-8
 ENV TERM xterm
 
-# Add the "PHP 7" ppa
+# Add the "PHP 7" ppa and "MC" ppa
 RUN apt-get install -y software-properties-common && \
-    add-apt-repository -y ppa:ondrej/php
+    add-apt-repository -y ppa:ondrej/php && \
+    add-apt-repository -y ppa:eugenesan/ppa
 
 #
 #--------------------------------------------------------------------------
@@ -60,7 +61,7 @@ RUN apt-get update && \
         vim \
         nano \
         postgresql-client \
-		mc \
+        mc \
     && apt-get clean
 
 #####################################
